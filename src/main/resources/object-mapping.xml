@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+	<worksheet name="Sheet1">
+        <section startRow="1" endRow="1" />
+        <loop startRow="1" endRow="1" items="userObjects" var="user"
+            varType="com.sillyproject.excelreading.model.User">
+            <section startRow="1" endRow="1">
+                <mapping row="1" col="0">user.serialNumber</mapping>
+                <mapping row="1" col="1">user.name</mapping>
+                <mapping row="1" col="2">user.score</mapping>
+                <mapping row="1" col="3">user.dateOfBirth</mapping>
+                <mapping row="1" col="4">user.mobileNumber</mapping>
+            </section>
+            <loopbreakcondition>
+                <rowcheck offset="0">
+                    <cellcheck offset="0"></cellcheck>
+                </rowcheck>
+            </loopbreakcondition>
+        </loop>
+    </worksheet>
+</workbook>
