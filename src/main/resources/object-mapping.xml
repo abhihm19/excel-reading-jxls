@@ -8,8 +8,7 @@
                 <mapping row="1" col="0">user.serialNumber</mapping>
                 <mapping row="1" col="1">user.name</mapping>
                 <mapping row="1" col="2">user.score</mapping>
-                <mapping row="1" col="3">user.dateOfBirth</mapping>
-                <mapping row="1" col="4">user.mobileNumber</mapping>
+                <mapping row="1" col="3">user.mobileNumber</mapping>
             </section>
             <loopbreakcondition>
                 <rowcheck offset="0">
